@@ -6,3 +6,6 @@ def capitalize(input_str):
         else:
             output_str += char
     return output_str
+input_str = 'hello'
+output_str = capitalize(input_str)
+print(output_str) # 'HELLO'
